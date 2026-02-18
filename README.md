@@ -19,6 +19,12 @@ Web-first PWA and mobile-ready care coordination platform for patients, caregive
 4. **Telehealth + messaging**: WebRTC signaling socket channel + in-app messaging with Socket.IO.
 5. **Tests + seed data + preview**: unit tests (Vitest), E2E flow (Playwright), seed generation script.
 
+
+## Get CareNest as an App
+- **PWA install (recommended first):** open deployed URL and install from browser menu (Android Chrome / iOS Safari).
+- **Store-ready native app:** use Capacitor wrapper (Android/iOS) with `npm run build`, `npm run mobile:sync`, then `npm run mobile:android` or `npm run mobile:ios`.
+- Detailed steps: `docs/APP_INSTALLATION.md`.
+
 ## Run locally
 ```bash
 npm install

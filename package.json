@@ -11,7 +11,10 @@
     "preview": "vite preview --host 0.0.0.0 --port 4173",
     "test": "vitest run",
     "test:e2e": "playwright test",
-    "seed": "tsx backend/scripts/seed.ts"
+    "seed": "tsx backend/scripts/seed.ts",
+    "mobile:sync": "npx cap sync",
+    "mobile:android": "npx cap run android",
+    "mobile:ios": "npx cap run ios"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -22,7 +25,10 @@
     "react-router-dom": "^6.30.1",
     "socket.io": "^4.8.1",
     "socket.io-client": "^4.8.1",
-    "zod": "^3.23.8"
+    "zod": "^3.23.8",
+    "@capacitor/core": "^7.0.1",
+    "@capacitor/android": "^7.0.1",
+    "@capacitor/ios": "^7.0.1"
   },
   "devDependencies": {
     "@playwright/test": "^1.49.1",
@@ -37,6 +43,7 @@
     "typescript": "^5.6.3",
     "vite": "^5.4.10",
     "vitest": "^2.1.4",
-    "supertest": "^7.0.0"
+    "supertest": "^7.0.0",
+    "@capacitor/cli": "^7.0.1"
   }
 }
