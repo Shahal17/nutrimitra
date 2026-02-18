@@ -41,6 +41,7 @@ npm run dev
 - TLS, AES-256 at-rest encryption, retention policy, signed attachment URLs, and 2FA/OTP are represented as integration-ready requirements for production deployment.
 
 ## Deliverables in repo
+- GitHub APK workflow: `.github/workflows/android-apk.yml` (download artifact `carenest-debug-apk`)
 - API docs: `docs/API.md`
 - Postman collection: `docs/postman_collection.json`
 - Migration files: `prisma/migrations/...`

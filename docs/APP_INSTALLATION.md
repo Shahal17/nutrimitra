@@ -49,3 +49,16 @@ npm run mobile:ios
 - Configure push notifications (FCM/APNs) if needed.
 - Add app icons/splash screens before store submission.
 - Enable stricter auth hardening (2FA/OTP) and device attestation in production.
+
+
+## Downloadable APK (GitHub Actions Artifact)
+
+If you want a downloadable APK file directly from CI:
+
+1. Push this branch to GitHub.
+2. Open **Actions** → **Build Android APK** workflow.
+3. Run workflow manually (**workflow_dispatch**) or use push trigger.
+4. After success, download artifact **`carenest-debug-apk`**.
+5. The artifact contains `app-debug.apk` ready for sideload testing.
+
+> For Play Store submission, build a signed release AAB/APK instead of debug APK.
