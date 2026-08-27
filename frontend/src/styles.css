@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; margin: 0; background: #f8fafc; }
+header { padding: 1rem; background: #1d4ed8; color: white; position: sticky; top: 0; }
+nav { display: flex; gap: .75rem; flex-wrap: wrap; }
+nav a { color: white; text-decoration: none; background: #2563eb; padding: .5rem .75rem; border-radius: .5rem; }
+main { padding: 1rem; }
+section, form, article { background: white; border-radius: .75rem; padding: 1rem; max-width: 640px; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+input, button { font-size: 1rem; padding: .75rem; margin: .25rem; border-radius: .5rem; border: 1px solid #cbd5e1; }
+button { background: #1d4ed8; color: white; border: none; min-height: 44px; }

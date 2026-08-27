@@ -1,0 +1,10 @@
+{
+  "users": [
+    {"id": "u_admin", "role": "admin", "email": "admin@carenest.test", "name": "Admin"},
+    {"id": "u_cg1", "role": "caregiver", "email": "nurse1@carenest.test", "name": "Nurse A"},
+    {"id": "u_cg2", "role": "caregiver", "email": "nurse2@carenest.test", "name": "Nurse B"},
+    {"id": "p_01", "role": "patient", "email": "patient1@carenest.test", "name": "Mr. Rao"},
+    {"id": "p_02", "role": "patient", "email": "patient2@carenest.test", "name": "Mrs. Iyer"},
+    {"id": "p_03", "role": "patient", "email": "patient3@carenest.test", "name": "Ms. Devi"}
+  ]
+}
